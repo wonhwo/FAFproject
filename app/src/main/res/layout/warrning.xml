@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <com.example.myapplication.Outline
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="식품 알레르기 유발 물질 목록"
+        android:textColor="#990000"
+        android:textSize="24dp"
+        android:textStyle="normal|italic"
+        app:textStroke="true"
+        app:textStrokeColor="#000000"
+        app:textStrokeWidth="10.0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:src="@drawable/w2" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+    <com.example.myapplication.Outline
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="알레르기는 이런 증상을 유발해요!"
+        android:textColor="#FFFF00"
+        android:textSize="18dp"
+        android:textStyle="normal|italic"
+        app:textStroke="true"
+        app:textStrokeColor="#000000"
+        app:textStrokeWidth="10.0" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:src="@drawable/w1" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+</LinearLayout>
